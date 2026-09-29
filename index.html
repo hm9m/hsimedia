@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Media Operations Portal | MOP</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="login-body">
+
+  <div class="concept-banner">
+    [TEST V.1]
+  </div>
+
+  <main class="login-wrapper">
+
+    <section class="login-brand">
+      <div class="brand-mark">M</div>
+
+      <div>
+        <span class="eyebrow">MEDIA OPERATIONS</span>
+        <h1>Media Team Portal</h1>
+        <p>
+          Central workspace for media requests, assignments,
+          digital assets and team operations.
+        </p>
+      </div>
+    </section>
+
+    <section class="login-card">
+
+      <div class="login-card-header">
+        <span class="status-dot"></span>
+        <span>PORTAL ACCESS</span>
+      </div>
+
+      <h2>Sign in</h2>
+      <p class="muted">
+        HSI SRT MEDIA TEAM
+      </p>
+
+      <form id="loginForm">
+
+        <label for="username">Username</label>
+        <input
+          id="username"
+          type="text"
+          autocomplete="off"
+          placeholder="Enter username"
+          required
+        >
+
+        <label for="password">Password</label>
+
+        <div class="password-box">
+          <input
+            id="password"
+            type="password"
+            autocomplete="off"
+            placeholder="Enter password"
+            required
+          >
+
+          <button
+            type="button"
+            id="showPassword"
+            class="show-password"
+          >
+            SHOW
+          </button>
+        </div>
+
+        <button class="login-button" type="submit">
+          ACCESS PORTAL
+        </button>
+
+        <p id="loginMessage" class="login-message"></p>
+
+      </form>
+
+      <div class="security-note">
+        <strong>HSI - SRT MEDIA TEAM</strong>
+        <p>
+         Authorized access only.
+        </p>
+      </div>
+
+    </section>
+
+  </main>
+
+  <script src="js/login.js"></script>
+</body>
+</html>
