@@ -1,46 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Dashboard | Media Operations</title>
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
 
-  <link rel="stylesheet" href="css/style.css">
+  <title>
+    Dashboard | Media Operations
+  </title>
+
+  <link
+    rel="stylesheet"
+    href="css/style.css"
+  >
+
 </head>
 
+
 <body class="portal-body">
+
 
 <div class="concept-banner">
   UNOFFICIAL UI CONCEPT — NOT A DHS OR HSI SYSTEM
 </div>
 
+
 <div class="portal-layout">
+
 
   <aside class="sidebar">
 
+
     <div class="sidebar-brand">
-      <div class="brand-mark small">M</div>
+
+      <div class="brand-seal small">
+
+        <img
+          src="images/dhs-seal.png"
+          alt="DHS Seal"
+        >
+
+      </div>
+
 
       <div>
-        <strong>MEDIA OPS</strong>
-        <span>PORTAL</span>
+
+        <strong>
+          HSI MEDIA
+        </strong>
+
+        <span>
+          OPERATIONS
+        </span>
+
       </div>
+
     </div>
+
 
     <nav>
 
-      <a href="portal.html" class="active">
+      <a
+        href="portal.html"
+        class="active"
+      >
         Dashboard
       </a>
+
 
       <a href="requests.html">
         Request Center
       </a>
 
+
       <a href="library.html">
         Media Library
       </a>
+
 
       <a href="team.html">
         Team Directory
@@ -48,88 +89,181 @@
 
     </nav>
 
+
     <div class="sidebar-bottom">
+
       <button onclick="logout()">
         Sign Out
       </button>
+
     </div>
+
 
   </aside>
 
+
   <main class="portal-content">
+
 
     <header class="portal-header">
 
-      <div>
-        <span class="eyebrow">MEDIA OPERATIONS</span>
 
-        <h1 id="welcomeText">
-          Operations Dashboard
+      <div>
+
+        <span class="eyebrow">
+          HOMELAND SECURITY INVESTIGATIONS
+        </span>
+
+
+        <h1>
+          Media Operations Dashboard
         </h1>
 
+
         <p>
-          Overview of current media activity and assignments.
+          Current media operations,
+          assignments and requests.
         </p>
+
       </div>
 
+
       <div class="user-chip">
+
         <span class="online-dot"></span>
-        <span id="userName">Member</span>
+
+        <span id="userName">
+          Member
+        </span>
+
       </div>
+
 
     </header>
 
 
+
     <section class="stats-grid">
 
-      <article class="stat-card">
-        <span>OPEN REQUESTS</span>
-        <strong>12</strong>
-        <small>4 high priority</small>
-      </article>
 
       <article class="stat-card">
-        <span>ACTIVE ASSIGNMENTS</span>
-        <strong>7</strong>
-        <small>Across 4 members</small>
+
+        <span>
+          OPEN REQUESTS
+        </span>
+
+        <strong>
+          12
+        </strong>
+
+        <small>
+          4 high priority
+        </small>
+
       </article>
 
-      <article class="stat-card">
-        <span>MEDIA ASSETS</span>
-        <strong>248</strong>
-        <small>18 added this week</small>
-      </article>
+
 
       <article class="stat-card">
-        <span>TEAM ONLINE</span>
-        <strong>6</strong>
-        <small>of 11 members</small>
+
+        <span>
+          ACTIVE ASSIGNMENTS
+        </span>
+
+        <strong>
+          7
+        </strong>
+
+        <small>
+          Across 4 members
+        </small>
+
       </article>
+
+
+
+      <article class="stat-card">
+
+        <span>
+          MEDIA ASSETS
+        </span>
+
+        <strong>
+          248
+        </strong>
+
+        <small>
+          18 added this week
+        </small>
+
+      </article>
+
+
+
+      <article class="stat-card">
+
+        <span>
+          TEAM ACTIVE
+        </span>
+
+        <strong>
+          6
+        </strong>
+
+        <small>
+          Media operations
+        </small>
+
+      </article>
+
 
     </section>
 
 
+
     <section class="dashboard-grid">
+
 
       <article class="panel">
 
+
         <div class="panel-heading">
+
+
           <div>
-            <span class="eyebrow">QUEUE</span>
-            <h2>Recent Requests</h2>
+
+            <span class="eyebrow">
+              REQUEST QUEUE
+            </span>
+
+            <h2>
+              Recent Requests
+            </h2>
+
           </div>
+
 
           <a href="requests.html">
             View All
           </a>
+
+
         </div>
+
 
 
         <div class="request-row">
 
           <div>
-            <strong>Event Photography</strong>
-            <p>Field Operations Division</p>
+
+            <strong>
+              Event Photography
+            </strong>
+
+            <p>
+              Field Operations
+            </p>
+
           </div>
 
           <span class="badge urgent">
@@ -139,11 +273,19 @@
         </div>
 
 
+
         <div class="request-row">
 
           <div>
-            <strong>Recruitment Graphic</strong>
-            <p>Public Affairs</p>
+
+            <strong>
+              Recruitment Graphic
+            </strong>
+
+            <p>
+              Media Operations
+            </p>
+
           </div>
 
           <span class="badge progress">
@@ -153,11 +295,19 @@
         </div>
 
 
+
         <div class="request-row">
 
           <div>
-            <strong>Training Video Edit</strong>
-            <p>Training Division</p>
+
+            <strong>
+              Training Video Edit
+            </strong>
+
+            <p>
+              Training Division
+            </p>
+
           </div>
 
           <span class="badge pending">
@@ -166,130 +316,273 @@
 
         </div>
 
+
       </article>
+
 
 
       <article class="panel">
 
+
         <div class="panel-heading">
 
           <div>
-            <span class="eyebrow">ACTIVITY</span>
-            <h2>Recent Activity</h2>
+
+            <span class="eyebrow">
+              ACTIVITY
+            </span>
+
+            <h2>
+              Recent Activity
+            </h2>
+
           </div>
 
         </div>
 
-        <div class="activity">
-          <span></span>
-
-          <div>
-            <strong>Media asset uploaded</strong>
-            <p>Operation photography package</p>
-            <small>18 minutes ago</small>
-          </div>
-        </div>
 
 
         <div class="activity">
+
           <span></span>
 
           <div>
-            <strong>Request assigned</strong>
-            <p>Recruitment graphic assigned to Design Team</p>
-            <small>42 minutes ago</small>
+
+            <strong>
+              Media asset uploaded
+            </strong>
+
+            <p>
+              Photography package added
+            </p>
+
+            <small>
+              18 minutes ago
+            </small>
+
           </div>
+
         </div>
+
 
 
         <div class="activity">
+
           <span></span>
 
           <div>
-            <strong>Assignment completed</strong>
-            <p>Training event photography</p>
-            <small>2 hours ago</small>
+
+            <strong>
+              Request assigned
+            </strong>
+
+            <p>
+              Recruitment graphic assigned
+            </p>
+
+            <small>
+              42 minutes ago
+            </small>
+
           </div>
+
         </div>
+
+
+
+        <div class="activity">
+
+          <span></span>
+
+          <div>
+
+            <strong>
+              Assignment completed
+            </strong>
+
+            <p>
+              Training event photography
+            </p>
+
+            <small>
+              2 hours ago
+            </small>
+
+          </div>
+
+        </div>
+
 
       </article>
+
 
     </section>
 
 
+
     <section class="panel assignments">
+
 
       <div class="panel-heading">
 
         <div>
-          <span class="eyebrow">OPERATIONS</span>
-          <h2>Active Assignments</h2>
+
+          <span class="eyebrow">
+            OPERATIONS
+          </span>
+
+          <h2>
+            Active Assignments
+          </h2>
+
         </div>
 
       </div>
 
 
+
       <table>
 
+
         <thead>
+
           <tr>
-            <th>ASSIGNMENT</th>
-            <th>TYPE</th>
-            <th>ASSIGNED</th>
-            <th>DUE</th>
-            <th>STATUS</th>
+
+            <th>
+              ASSIGNMENT
+            </th>
+
+            <th>
+              TYPE
+            </th>
+
+            <th>
+              ASSIGNED
+            </th>
+
+            <th>
+              DUE
+            </th>
+
+            <th>
+              STATUS
+            </th>
+
           </tr>
+
         </thead>
+
 
         <tbody>
 
+
           <tr>
-            <td>Field Office Event</td>
-            <td>Photography</td>
-            <td>Media Team 01</td>
-            <td>SEP 30</td>
+
             <td>
+              Field Office Event
+            </td>
+
+            <td>
+              Photography
+            </td>
+
+            <td>
+              Media Team
+            </td>
+
+            <td>
+              SEP 30
+            </td>
+
+            <td>
+
               <span class="badge progress">
                 ACTIVE
               </span>
+
             </td>
+
           </tr>
 
+
+
           <tr>
-            <td>Recruitment Campaign</td>
-            <td>Graphic Design</td>
-            <td>Design Team</td>
-            <td>OCT 02</td>
+
             <td>
+              Recruitment Campaign
+            </td>
+
+            <td>
+              Graphic Design
+            </td>
+
+            <td>
+              Media Team
+            </td>
+
+            <td>
+              OCT 02
+            </td>
+
+            <td>
+
               <span class="badge pending">
                 REVIEW
               </span>
+
             </td>
+
           </tr>
 
+
+
           <tr>
-            <td>Training Recap</td>
-            <td>Video</td>
-            <td>Video Team</td>
-            <td>OCT 05</td>
+
             <td>
+              Training Recap
+            </td>
+
+            <td>
+              Video
+            </td>
+
+            <td>
+              Media Team
+            </td>
+
+            <td>
+              OCT 05
+            </td>
+
+            <td>
+
               <span class="badge progress">
                 EDITING
               </span>
+
             </td>
+
           </tr>
+
 
         </tbody>
 
+
       </table>
+
 
     </section>
 
+
   </main>
+
 
 </div>
 
+
 <script src="js/portal.js"></script>
 
+
 </body>
+
 </html>
